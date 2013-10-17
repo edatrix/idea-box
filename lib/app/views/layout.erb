@@ -1,10 +1,42 @@
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>IdeaBox</title>
-  </head>
-  <body>
+<head>
+<title>Citrusy</title>
+<meta charset="utf-8">
 
-  <%= yield %>
+<link rel="stylesheet" href="/css/5grid/core.css">
+<link rel="stylesheet" href="/css/5grid/core-desktop.css">
+<link rel="stylesheet" href="/css/5grid/core-1200px.css">
+<link rel="stylesheet" href="/css/5grid/core-noscript.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/style-desktop.css">
+  
+</head>
+<body class="homepage">
+  <div id="header-wrapper">
+  <header id="header">
+    <div class="5grid-layout">
+      <div class="row">
+        <div class="12u" id="logo">
+          <center><h1><font face="helvetica">welcome to</font></h1></center>
+          <center><img src="http://laurahily.fr/images/images-logos/gf/idea-box.jpg" alt="ideabox" width=700 height=200></center>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+    <div id="wrapper">
+      <div id="marketing">
+        <div class="5grid-layout">
+          <div class="row divider">
+
+          <%= yield %>
+
+          </div>
+        </div>
+      </div>
+    </div>
+       
 
   </body>
 </html>
