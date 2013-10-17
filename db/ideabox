@@ -1,2 +1,11 @@
 ---
-ideas: []
+ideas:
+- title: get fat
+  description: eat a ton.
+- title: learn ruby
+  description: gschool 4 life
+- title: halloween
+  description: "carve pumpkins, eat the seeds.\r\n\r\nalso eat some candy."
+  rank: 1
+- title: test your idea
+  description: write an idea in the box.
