@@ -1,9 +1,12 @@
-<form action='/<%= idea.id %>' method='POST'>
+<center>
+  <br/>
+  <form action='/<%= idea.id %>' method='POST'>
   <p>
+    <br/>
     <% if idea.id %>
       Edit your Idea:
     <% else %>
-      Your Idea:
+      <font face="helvetica">Please enter your brilliant idea here:</font>
     <% end %>
   </p>
   <% if idea.id %>
@@ -12,4 +15,5 @@
   <input type='text' name='idea[title]' value="<%= idea.title %>"/><br/>
   <textarea name='idea[description]'><%= idea.description %></textarea><br/>
   <input type='submit'/>
-</form>
+  </form>
+</center>

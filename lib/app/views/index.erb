@@ -1,11 +1,13 @@
 <br/>
 
-<center><h1>Welcome to IdeaBox</h1></center>
+<center><h1><font face="helvetica">welcome to</font></h1></center>
+<br/>
+<center><img src="http://laurahily.fr/images/images-logos/gf/idea-box.jpg" alt="ideabox" width=700 height=200></center>
 
 
 <%= erb :form, locals: {idea: idea} %>
 
-<h3>Existing Ideas</h3>
+  <h3><font face="helvetica">Existing Ideas</font></h3>
 
 <ul>
   <% ideas.each do |idea| %>
@@ -13,9 +15,9 @@
       <form action='/<%= idea.id %>/like' method='POST' style="display: inline">
         <input type='submit' value="+"/>
       </form>
-      <%= idea.title %><br/>
-      <%= idea.description %>
-      <a href="/<%= idea.id %>/edit">Edit</a>
+      <font face="helvetica"><%= idea.title %></font><br/>
+      <font face="helvetica"><%= idea.description %></font>
+      <a href="/<%= idea.id %>/edit"><font face="helvetica">Edit</font></a>
       <form action='/<%= idea.id %>' method='POST'>
         <input type="hidden" name="_method" value="DELETE">
         <input type='submit' value="delete"/>
