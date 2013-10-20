@@ -1,5 +1,6 @@
 require 'bundler'
 require 'idea_box'
+
 Bundler.require
 
 class IdeaBoxApp < Sinatra::Base
