@@ -5,12 +5,21 @@ ideas:
   rank: 1
 - title: learn ruby
   description: gschool 4 life
+  rank: 1
 - title: halloween
   description: "carve pumpkins, eat the seeds.\r\n\r\nalso eat some candy."
   rank: 1
 - title: test your idea
-  description: write an idea in the box.
+  description: write an idea in the box. testing editing.
 - title: have a baby
   description: no clue
 - title: make breakfast
   description: eat some toast.  add some eggs.
+  rank: 1
+- title: have a party
+  description: get some supplies.
+- title: carve a pumpkin
+  description: make a scary face
+  rank: 1
+- title: get some candy
+  description: chocolate, please.
