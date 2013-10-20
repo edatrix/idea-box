@@ -2,6 +2,7 @@
 ideas:
 - title: get fat
   description: eat a ton.
+  rank: 1
 - title: learn ruby
   description: gschool 4 life
 - title: halloween
@@ -11,3 +12,5 @@ ideas:
   description: write an idea in the box.
 - title: have a baby
   description: no clue
+- title: make breakfast
+  description: eat some toast.  add some eggs.
