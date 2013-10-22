@@ -1,7 +1,7 @@
 ---
 ideas:
 - title: get fat
-  description: eat a ton.
+  description: eat a ton.  then eat some more.
   rank: 1
 - title: learn ruby
   description: gschool 4 life
@@ -14,8 +14,7 @@ ideas:
 - title: have a baby
   description: no clue
 - title: make breakfast
-  description: eat some toast.  add some eggs.
-  rank: 1
+  description: eat some toast.  add some eggs. yum.
 - title: have a party
   description: get some supplies.
 - title: carve a pumpkin
@@ -23,3 +22,4 @@ ideas:
   rank: 1
 - title: get some candy
   description: chocolate, please.
+  rank: 1

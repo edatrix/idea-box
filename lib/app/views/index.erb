@@ -5,19 +5,19 @@
 
   <h1><font face="helvetica" font size="5">existing ideas:</font></h1>
 
-  </br>
-  </br>
+  <br>
+  <br>
 
 <% ideas.each do |idea| %>
-  <div class="3u">
+  <div class="3u idea">
     <section>
       <div class="mbox-style">
         <h2 class="title"><%= idea.title %></h2>
         <div class="content">
           <p class="subtitle"><%= idea.description %></p>
         </div>
-        <!-- <p class="button-style2"> --><a href="/<%= idea.id %>/edit"><font face="helvetica">click here to edit</font></a><!-- </p> -->
-        
+        <!-- <p class="button-style2"> --><a href="/<%= idea.id %>/edit"><font face="helvetica" color="orange">edit</font></a><!-- </p> -->
+
         <p class="button-style2">
           <form action='/<%= idea.id %>' method='POST'>
             <input type="hidden" name="_method" value="DELETE">
