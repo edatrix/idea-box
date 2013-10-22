@@ -1,5 +1,5 @@
 require 'bundler'
-require 'idea_box'
+require './lib/idea_box'
 
 Bundler.require
 
@@ -40,6 +40,14 @@ class IdeaBoxApp < Sinatra::Base
 
   put '/:id' do |id|
     IdeaStore.update(id.to_i, params[:idea])
+    redirect '/'
+  end
+
+  get '/sms' do
+    title, description = params[:Body].split(", ")
+    attributes = {"title" => title, "description" => description}
+    idea = Idea.new(attributes)
+    idea.save
     redirect '/'
   end
 

@@ -7,8 +7,7 @@ ideas:
   description: gschool 4 life
   rank: 1
 - title: halloween
-  description: "carve pumpkins, eat the seeds.\r\n\r\nalso eat some candy."
-  rank: 1
+  description: "carve pumpkins & eat the seeds\r\n\r\nalso eat some candy."
 - title: test your idea
   description: write an idea in the box. testing editing.
 - title: have a baby
@@ -23,3 +22,6 @@ ideas:
 - title: get some candy
   description: chocolate, please.
   rank: 1
+- title: stuff
+  description: asdf
+  rank: 0
