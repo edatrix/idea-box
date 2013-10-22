@@ -4,7 +4,6 @@ require 'idea_box'
 Bundler.require
 
 class IdeaBoxApp < Sinatra::Base
-  register(Sinatra::Tags)
   set :method_override, true
   set :root, 'lib/app'
 
