@@ -7,6 +7,17 @@ class IdeaBoxApp < Sinatra::Base
   set :method_override, true
   set :root, 'lib/app'
 
+  helpers do
+
+    def idea_path(idea=nil)
+      if idea
+        "ideas/#{idea.id}"
+      else
+        "ideas"
+      end
+    end
+  end
+
   not_found do
     erb :error
   end
@@ -16,30 +27,35 @@ class IdeaBoxApp < Sinatra::Base
                          idea: Idea.new}
   end
 
-  post '/:id/like' do |id|
+  post '/ideas/:id/like' do |id|
     idea = IdeaStore.find(id.to_i)
     idea.like!
     IdeaStore.update(id.to_i, idea.to_h)
     redirect '/'
   end
 
-  post '/' do
-    IdeaStore.create(params[:idea]) if params[:idea]
-    redirect '/'
-  end
-
-  delete '/:id' do |id|
+  delete '/ideas/:id' do |id|
     IdeaStore.delete(id.to_i)
     redirect '/'
   end
 
-  get '/:id/edit' do |id|
+  get '/ideas/:id/edit' do |id|
     idea = IdeaStore.find(id.to_i)
     erb :edit, locals: {idea: idea}
   end
 
-  put '/:id' do |id|
+  put '/ideas/:id' do |id|
     IdeaStore.update(id.to_i, params[:idea])
+    redirect '/'
+  end
+
+  get '/ideas/:id' do |id|
+    idea = IdeaStore.find(id.to_i)
+    erb :idea, locals: {idea: idea, ideas: IdeaStore.all.sort}
+  end
+
+  post '/ideas' do
+    IdeaStore.create(params[:idea]) if params[:idea]
     redirect '/'
   end
 
