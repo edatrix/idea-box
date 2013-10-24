@@ -5,21 +5,24 @@ ideas:
   rank: 1
 - title: halloween
   description: "carve pumpkins & eat the seeds\r\n\r\nalso eat some candy."
-- title: test your idea
+- id: 2
+  title: test your idea
   description: "write an idea in the box. testing editing. jhhgtjs awetqT\r\n\r\n\r\nwiutbiuqbw9tgub1o3t"
+  rank: 1
 - title: have a baby
   description: no clue
 - title: make breakfast
-  description: eat some toast.  add some eggs. and bacon and orange juice.
+  description: eat some toast.  add some eggs. and bacon and orange juice. woeiogoandglkwssse
 - title: have a party
   description: get some supplies.
   rank: 2
 - title: carve a pumpkin
   description: make a scary face
   rank: 1
-- title: get some candy
+- id: 7
+  title: get some candy
   description: chocolate, please.
-  rank: 1
+  rank: 3
 - title: Make it work
   description: get shit done
   rank: 0
@@ -31,4 +34,10 @@ ideas:
   rank: 0
 - title: Review!
   description: Wahooo!!
+  rank: 0
+- title: new idea
+  description: testing
+- id: 
+  title: Hey
+  description: gathet!
   rank: 0
