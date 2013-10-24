@@ -6,13 +6,14 @@ ideas:
 - title: halloween
   description: "carve pumpkins & eat the seeds\r\n\r\nalso eat some candy."
 - title: test your idea
-  description: write an idea in the box. testing editing. jhhgtjs
+  description: 'write an idea in the box. testing editing. jhhgtjs '
 - title: have a baby
   description: no clue
 - title: make breakfast
   description: eat some toast.  add some eggs.
 - title: have a party
   description: get some supplies.
+  rank: 2
 - title: carve a pumpkin
   description: make a scary face
   rank: 1
@@ -27,4 +28,7 @@ ideas:
   rank: 0
 - title: Go home
   description: get in the car
+  rank: 0
+- title: Review!
+  description: Wahooo!!
   rank: 0
