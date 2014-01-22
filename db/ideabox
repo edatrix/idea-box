@@ -4,15 +4,18 @@ ideas:
   description: eat a ton.  then eat some more.
   rank: 1
 - title: halloween
-  description: "carve pumpkins & eat the seeds\r\n\r\nalso eat some candy."
+  description: "carve pumpkins & eat the seeds\r\n\r\nalso eat some candy.\r\n\r\ntrick
+    or treat!"
 - id: 2
   title: test your idea
   description: "write an idea in the box. testing editing. jhhgtjs awetqT\r\n\r\n\r\nwiutbiuqbw9tgub1o3t"
   rank: 1
 - title: have a baby
   description: no clue
-- title: make breakfast
+- id: 4
+  title: make breakfast
   description: eat some toast.  add some eggs. and bacon and orange juice. woeiogoandglkwssse
+  rank: 2
 - title: have a party
   description: get some supplies.
   rank: 2
@@ -28,16 +31,21 @@ ideas:
   rank: 0
 - title: Test again
   description: text an idea
-  rank: 0
 - title: Go home
   description: get in the car
   rank: 0
 - title: Review!
   description: Wahooo!!
   rank: 0
-- title: new idea
-  description: testing
 - id: 
   title: Hey
   description: gathet!
   rank: 0
+- id: 13
+  title: win the world series
+  description: go cards!
+  rank: 2
+- id: 14
+  title: new idea
+  description: hello Rachel
+  rank: 1
