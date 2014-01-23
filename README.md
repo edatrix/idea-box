@@ -1,4 +1,4 @@
-##README
+##Idea Box
 
 Idea Box is a simple web application that allows users to record ideas.  
 
