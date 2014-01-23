@@ -6,7 +6,6 @@ require 'minitest/pride'
 require './lib/app'
 require 'rack/test'
 
-
 class AppTest < Minitest::Test
   include Rack::Test::Methods
 
@@ -36,7 +35,6 @@ class AppTest < Minitest::Test
 
     assert_equal "breathe", idea.title
     assert_equal "fresh air in the mountains", idea.description
-
   end
 
 end
